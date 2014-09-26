@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>ProtoFileComparer</id>
+        <version>1.0.0-beta7</version>
+        <authors>jechtom</authors>
+        <licenseUrl>https://github.com/jechtom/ProtoFileComparer/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/jechtom/ProtoFileComparer</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Comparer of Google Protocol Buffers definitions (.proto files)</description>
+        <language />
+        <dependencies>
+            <dependency id="Google.ProtocolBuffers" version="2.4.1.521" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="ProtoFileComparer\ProtoTools\protoc-license.txt" target="content\ProtoTools\protoc-license.txt" />
+        <file src="ProtoFileComparer\ProtoTools\protoc.exe" target="content\ProtoTools\protoc.exe" />
+        <file src="ProtoFileComparer\bin\Release\ProtoFileComparer.dll" target="lib\net40\ProtoFileComparer.dll" />
+        <file src="ProtoFileComparer\bin\Release\ProtoFileComparer.pdb" target="lib\net40\ProtoFileComparer.pdb" />
+        <file src="ProtoFileComparer\bin\Release\ProtoFileComparer.XML" target="lib\net40\ProtoFileComparer.XML" />
+        <file src="ProtoFileComparer_install.ps1" target="tools\install.ps1" />
+    </files>
+</package>
